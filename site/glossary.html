@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glossary, in Plain English — Video Calls, Calm</title>
+<meta name="description" content="A calm, beginner-friendly guide to video calls: glossary, in plain english, step by step.">
+<style>
+:root {
+  --ink: #26221d; --paper: #fbf8f2; --accent: #7a4a2b; --soft: #f0e7d8;
+  --line: #e3d9c8; --link: #59421f;
+}
+* { box-sizing: border-box; }
+html { font-size: 18px; scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+  line-height: 1.65;
+}
+header.site {
+  background: var(--soft); border-bottom: 2px solid var(--line); padding: 1rem 1.2rem 0.6rem;
+}
+header.site a { color: inherit; text-decoration: none; }
+header.site .book { font-size: 0.85rem; color: var(--accent); letter-spacing: 0.04em; text-transform: uppercase; }
+header.site h1 { margin: 0.1rem 0 0; font-size: 1.35rem; }
+nav.pages {
+  max-width: 60rem; margin: 0 auto; padding: 0.45rem 0 0.15rem;
+  display: flex; flex-wrap: wrap; gap: 0.3rem 0.55rem; font-size: 0.85rem;
+}
+nav.pages a {
+  padding: 0.15rem 0.55rem; border: 1px solid var(--line); border-radius: 999px;
+  background: #fdfbf6; color: var(--link); text-decoration: none;
+}
+nav.pages a[aria-current="page"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+nav.pages a:hover { background: #f3ead9; }
+nav.pages a[aria-current="page"]:hover { background: var(--accent); }
+main { max-width: 42rem; margin: 0 auto; padding: 2rem 1.2rem 3rem; }
+h2 { margin-top: 2.2em; line-height: 1.25; }
+a { color: var(--link); }
+code { background: var(--soft); border: 1px solid var(--line); border-radius: 4px; padding: 0.05em 0.35em; font-size: 0.92em; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+pre code { display: block; padding: 0.8em 1em; overflow-x: auto; }
+blockquote {
+  margin: 1.4rem 0; padding: 0.7rem 1.1rem; background: var(--soft);
+  border-left: 4px solid var(--accent); border-radius: 0 8px 8px 0; font-style: italic;
+}
+table { border-collapse: collapse; width: 100%; margin: 1.2rem 0; font-size: 0.95rem; }
+th, td { border: 1px solid var(--line); padding: 0.5rem 0.7rem; text-align: left; vertical-align: top; }
+th { background: var(--soft); }
+input[type="checkbox"] { width: 1rem; height: 1rem; accent-color: var(--accent); }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
+footer.site { max-width: 60rem; margin: 0 auto; padding: 1rem 1.2rem 2rem; font-size: 0.82rem; color: #6f6250; border-top: 2px solid var(--line); }
+footer.site a { color: var(--accent); }
+.pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 3rem; font-size: 0.95rem; }
+.pager a { text-decoration: none; }
+.pager .arrow { color: var(--accent); }
+@media print {
+  header.site, footer.site, .pager { display: none; }
+  body { background: #fff; font-size: 12pt; }
+  nav.doc { display: none; }
+  a { color: inherit; text-decoration: none; }
+  .no-print { display: none; }
+}
+</style>
+</head>
+<body>
+<header class="site">
+  <a href="index.html">
+    <div class="book">From The Massive AI Manual &middot; Asdale Dynamics, LLC</div>
+    <h1>Video Calls, Calm</h1>
+  </a>
+  <nav class="pages" aria-label="Chapters">
+    <a href="index.html">Start Here</a>
+    <a href="01-gear.html">1 Gear</a>
+    <a href="02-framing-light.html">2 Framing & Light</a>
+    <a href="03-captions.html">3 Captions</a>
+    <a href="04-muting.html">4 Muting</a>
+    <a href="05-screen-share.html">5 Screen Share</a>
+    <a href="06-ai-note-takers.html">6 AI Note-Takers</a>
+    <a href="07-grandkid-calls.html">7 Grandkid Calls</a>
+    <a href="08-troubleshooting.html">8 Troubleshooting</a>
+    <a href="checklist.html">Checklist</a>
+    <a href="dial-in-card.html">Dial-In Card</a>
+    <a href="glossary.html" aria-current="page">Glossary</a>
+  </nav>
+</header>
+<main>
+<h1 id="glossary-in-plain-english">Glossary, in Plain English</h1>
+<p>Words about video calls, defined like a friend would explain them over the fence.
+Nobody uses all of these; the good ones to know are marked in the text of the book.</p>
+<h2 id="a">A</h2>
+<p><strong>AI note-taker</strong> — A bot that joins a video call and takes notes, transcribes, and
+emails a summary. Common in offices; increasingly in book clubs. See
+<a href="06-ai-note-takers.md">chapter 6</a> for the consent etiquette.</p>
+<p><strong>Audio-only</strong> — A call with no video, just voices. The reliable fallback when internet
+is weak or someone's camera is having opinions.</p>
+<h2 id="b">B</h2>
+<p><strong>Bandwidth</strong> — How much internet "room" your connection has for the moment. Live video
+uses a good slice of it. When the room runs low, video freezes first and sound survives —
+that's by design.</p>
+<p><strong>Bot</strong> — A small program that acts like a participant. In this guide, always means the
+note-taking kind. See: <a href="#a">AI note-taker</a>.</p>
+<p><strong>Browser tab / window</strong> — A tab is one page inside a browser; a window is a separate
+box containing its own tabs. When sharing your screen, share <em>one window</em>, never the
+whole screen. See: <a href="05-screen-share.md">chapter 5</a>.</p>
+<h2 id="c">C</h2>
+<p><strong>Captions (CC)</strong> — The words of the conversation shown at the bottom of the screen,
+made live by the app. Turn them on freely; they help nearly everyone. <a href="03-captions.md">Chapter 3</a>.</p>
+<p><strong>Chat (in-call)</strong> — The little text messaging inside a call, handy for links,
+addresses, or "your mic is muted!" in a polite whisper.</p>
+<h2 id="d">D</h2>
+<p><strong>Do Not Disturb / Focus mode</strong> — A device setting that stops notification pop-ups
+during a call. Consider turning it on before you share a screen.</p>
+<h2 id="e">E</h2>
+<p><strong>Echo</strong> — Hearing your own voice back with a small delay, because someone's microphone
+is re-hearing their speaker. Fixed with headphones or muting the quiet ones.
+<a href="08-troubleshooting.md">Chapter 8</a> has the kind walkthrough.</p>
+<h2 id="f">F</h2>
+<p><strong>FaceTime</strong> — Apple's video calling, built in on iPhone/iPad/Mac. Works beautifully
+at long distance between Apple devices; can switch between audio and video mid-call.</p>
+<p><strong>Frozen squares</strong> — What it looks like when someone's video stalls: their face becomes
+a still photo, or moves a second at a time. Not anyone's fault; see
+<a href="08-troubleshooting.md">chapter 8</a>.</p>
+<h2 id="g">G</h2>
+<p><strong>Google Meet</strong> — Google's browser-based video calling. Free with a Google account;
+runs right in the browser, which makes it a favorite for easy family calls.</p>
+<h2 id="h">H</h2>
+<p><strong>Headphones / headset</strong> — Anything that plays sound close to your ears and, if it has
+a microphone, picks up only your voice. The single best gear purchase for calls, at any
+price. See: <a href="01-gear.md">chapter 1</a>.</p>
+<p><strong>Host</strong> — The person who "owns" a scheduled meeting. Hosts can mute people, turn
+captions on, remove note-taker bots, and stop anyone's screen share.</p>
+<h2 id="j">J</h2>
+<p><strong>Join (a call)</strong> — Clicking the link or button that puts you in. That's the whole word.</p>
+<h2 id="l">L</h2>
+<p><strong>Link</strong> — The web address (looks like https://…) that leads to a meeting. One tap and
+you're in the waiting room.</p>
+<p><strong>Live captions</strong> — Captions being written <em>as</em> people speak, by the app itself, which
+is why an occasional word turns into something odd. Forgive them; they try.</p>
+<h2 id="m">M</h2>
+<p><strong>Meeting ID</strong> — The number that identifies a specific Zoom or Teams meeting.</p>
+<p><strong>Mic (microphone)</strong> — What hears you. Mute is its off switch. Push to Talk is its
+walkie-talkie mode (Zoom only). See: <a href="04-muting.md">chapter 4</a>.</p>
+<p><strong>Mute</strong> — Turning off <em>your</em> microphone while everything else keeps running. The
+mother of all good call manners. <a href="04-muting.md">Chapter 4</a> is the full etiquette.</p>
+<h2 id="n">N</h2>
+<p><strong>Note-taker (bot)</strong> — See: <a href="#a">AI note-taker</a>.</p>
+<h2 id="p">P</h2>
+<p><strong>Passcode</strong> — A short word or number required to get into some meetings. Family calls
+rarely need one; work calls usually do.</p>
+<p><strong>Push to Talk</strong> — A Zoom setting: stay muted by default, hold the space bar to speak.</p>
+<h2 id="r">R</h2>
+<p><strong>Raise hand</strong> — A button in most apps that makes a hand icon appear next to your name,
+for politely claiming a turn in a busy call.</p>
+<p><strong>Recording</strong> — Making a permanent copy of a call's audio (sometimes video). If anyone
+or any bot is recording, everyone should know <em>before</em> the call starts. This is the
+whole point of <a href="06-ai-note-takers.md">chapter 6</a>.</p>
+<h2 id="s">S</h2>
+<p><strong>Screen share</strong> — Showing something from your device to everyone on the call. Always
+share a specific <em>window or tab</em>, never the full screen, unless you truly mean to.</p>
+<p><strong>Summary (AI)</strong> — The note-taker bot's after-call write-up. Useful, shareable — and
+still a recording's child, so share it with the same care.</p>
+<h2 id="t">T</h2>
+<p><strong>Transcript</strong> — The word-for-word text of a call, usually made by an AI transcription
+tool. Handy to search, occasionally awkward to read, easy to delete.</p>
+<p><strong>Transcription</strong> — The act of turning spoken words into written text in real time.</p>
+<h2 id="u">U</h2>
+<p><strong>Unmute</strong> — Turning your microphone back on. Do it <em>on purpose</em>, by checking for the
+muted-mic symbol first.</p>
+<h2 id="v">V</h2>
+<p><strong>Virtual background</strong> — The app replacing the room behind you with a picture or blur.
+Fun and harmless; a real, tidy background works just as well.</p>
+<h2 id="w">W</h2>
+<p><strong>Waiting room</strong> — A lobby some meetings use: you arrive, the host lets you in. Not a
+demotion; just a doorbell.</p>
+<p><strong>WhatsApp</strong> — A messaging app whose calls handle both audio and video on phones.
+Popular in families that span countries; not great for bigger group meetings.</p>
+<h2 id="z">Z</h2>
+<p><strong>Zoom</strong> — The video-calling app most workplaces and many clubs use, with the most
+settings we discuss in this guide (push to talk, captions, host controls, AI Companion).
+Free for calls up to 40 minutes; fine for almost every family visit.</p>
+<div class="pager">
+  <div><a href="dial-in-card.html"><span class="arrow">&larr;</span> Previous: Dial-In Card</a></div>
+  <div></div>
+</div>
+</main>
+<footer class="site">
+  <p><em>Video Calls, Calm</em> — a companion volume to the <em>Family Tech Support Guide</em>.
+  Plain English, step by step, never condescending. Built locally; no network required.</p>
+  <p>Copyright (c) 2026 Asdale Dynamics, LLC &middot; MIT License &middot;
+  part of <a href="https://dylanasdale.github.io">dylanasdale.github.io</a> &amp; The Massive AI Manual</p>
+</footer>
+</body>
+</html>
